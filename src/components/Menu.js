@@ -4,7 +4,12 @@ import styled from '@emotion/styled'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.primary};
+  display: block;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  border-bottom: 1.5px solid ${props => props.theme.colors.secondary};
+  background: ${props => props.theme.colors.background};
   width: 100%;
   padding: 1.5em 0;
 `
@@ -34,7 +39,6 @@ const Nav = styled.nav`
     color: DarkGray;
     font-weight: 600;
     transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.text};
     &:hover {
       color: white;
     }

@@ -41,8 +41,8 @@ const Post = styled.li`
 `
 
 const StyledImg = styled(Img)`
-  border-top-left-radius: 1px;
-  border-top-right-radius: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 `
 
 const Title = styled.h2`

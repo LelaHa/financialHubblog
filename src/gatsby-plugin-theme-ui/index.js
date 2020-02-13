@@ -13,6 +13,7 @@ export default {
 
     whiteBrownB: '#f7f2ed',
     whiteBrown: '#fffefb',
+    prowhite: 'f9f7f7',
 
     grey100: '#ECECED',
     grey200: '#CFCFD1',

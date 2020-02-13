@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   width: 100%;
   margin: -1.5rem auto 2.5rem;
   max-width: ${props => props.theme.sizes.maxWidth};
-  padding: 0 1.5rem;
+  padding: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;

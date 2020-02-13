@@ -8,25 +8,26 @@ const Body = styled.div`
   h1,
   h2,
   h3 {
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.25;
     margin: 0 0 1rem 0;
     text-transform: capitalize;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
   h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   h3 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   p {
     line-height: 1.6;
     margin: 0 0 2em 0;
+    font-size: 1.25em;
   }
 
   a {

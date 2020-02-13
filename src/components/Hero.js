@@ -3,6 +3,7 @@ import Img from 'gatsby-image'
 import styled from '@emotion/styled'
 
 const Wrapper = styled.section`
+  margin: 65px auto;
   position: relative;
   min-height: 300px;
   height: auto;
@@ -32,7 +33,7 @@ const Title = styled.h1`
   z-index: 2;
   font-size: 3em;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 1000;
   position: absolute;
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidthCentered};

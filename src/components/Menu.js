@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Header = styled.header`
-  display: block;
+  display: flex;
   width: 100%;
   z-index: 1000;
   position: fixed;
@@ -36,17 +36,17 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: ${props => props.theme.colors.grey500};
     font-weight: 600;
     transition: all 0.2s;
     &:hover {
-      color: white;
+      color: ${props => props.theme.colors.grey900};
     }
   }
 `
 
 const activeLinkStyle = {
-  color: 'white',
+  color: 'grey900',
 }
 
 const Menu = () => {

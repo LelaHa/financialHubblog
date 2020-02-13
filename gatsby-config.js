@@ -42,6 +42,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-styled-components`,
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
     {

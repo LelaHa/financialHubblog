@@ -30,7 +30,7 @@ export default {
       '"Source Sans Pro", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif',
   },
   sizes: {
-    maxWidth: '900px',
+    maxWidth: '790px',
     maxWidthCentered: '650px',
   },
   responsive: {
